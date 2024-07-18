@@ -187,6 +187,7 @@ address {
 .company-list {
   display: flex;
   gap: 24px;
+  padding: 120px 0;
 }
 
 .company-list-item {
@@ -199,13 +200,15 @@ address {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
   margin-bottom: 8px;
+  
 }
 
 
-.company-list_description {
+.company-list-description {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var (--slate);
+  
 }
 
 .team {
