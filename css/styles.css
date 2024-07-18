@@ -52,6 +52,20 @@ ul {
   list-style-type: none;
 }
 
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header{border-bottom: 1px solid #e7e9fc ;}
+
+.container-item{
+  display: flex;
+}
+
+
+
 .logo {
   font-family: var(--second-family);
   font-weight: 700;
@@ -60,6 +74,21 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+  margin-right: 76px;
+}
+
+.header-nav{
+  display: flex;
+  align-items: center;
+}
+
+.menu{
+  display: flex;
+  gap: 40px;
+}
+
+.menu-items{
+  padding: 24px 0 24px;
 }
 
 .header-link {
@@ -67,6 +96,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  padding: 24px 0 24px;
 }
 
 .header-link:hover,
@@ -78,10 +108,19 @@ address {
   font-style: normal;
 }
 
+.contacts-box{
+  display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    padding-top: 24px;
+    margin-left: 332px;
+}
+
 .address-contact {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+  pad: 24px 0 24px;
 }
 
 .address-contact:hover,
@@ -91,6 +130,9 @@ address {
 
 .hero {
   background-color: var(--navy-blue);
+  width: 1440px;
+  height: 600px;
+  top: 72px;
 }
 
 .hero-title {
@@ -99,6 +141,12 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white);
+  text-align: center;
+  width: 496px;
+  height: 120px;
+  left: 472px;
+  top: 260px;
+  padding: 188px 472px 292px 472px;
 }
 
 .button {
@@ -110,6 +158,12 @@ address {
   font-weight: 500;
   line-height: 1.5;
   color: var(--white);
+  position: absolute;
+  width: 169px;
+  height: 56px;
+  left: 636px;
+  top: 448px;
+  gap: 10px;
 }
 
 .button:hover,
@@ -189,6 +243,8 @@ address {
 
 .footer-section {
   background-color: var(--navy-blue);
+  width: 1440px;
+  height: 312px;
 }
 
 .footer-paragraph {
