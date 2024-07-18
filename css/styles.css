@@ -58,13 +58,13 @@ ul {
   margin: 0 auto;
 }
 
-.header{border-bottom: 1px solid #e7e9fc ;}
-
-.container-item{
-  display: flex;
+.header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
-
+.container-item {
+  display: flex;
+}
 
 .logo {
   font-family: var(--second-family);
@@ -77,17 +77,17 @@ ul {
   margin-right: 76px;
 }
 
-.header-nav{
+.header-nav {
   display: flex;
   align-items: center;
 }
 
-.menu{
+.menu {
   display: flex;
   gap: 40px;
 }
 
-.menu-items{
+.menu-items {
   padding: 24px 0 24px;
 }
 
@@ -108,12 +108,12 @@ address {
   font-style: normal;
 }
 
-.contacts-box{
+.contacts-box {
   display: flex;
-    gap: 40px;
-    justify-content: space-around;
-    padding-top: 24px;
-    margin-left: 332px;
+  gap: 40px;
+  justify-content: space-around;
+  padding-top: 24px;
+  margin-left: 332px;
 }
 
 .address-contact {
@@ -171,15 +171,38 @@ address {
   background-color: var(--ocean);
 }
 
-.quality-list-title {
+.our-company-title-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.company-list {
+  display: flex;
+  gap: 24px;
+}
+
+.company-list-item {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
+.company-list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  margin-bottom: 8px;
 }
 
-.quality-list_description {
+
+.company-list_description {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var (--slate);
