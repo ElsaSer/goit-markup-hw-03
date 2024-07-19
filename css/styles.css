@@ -128,6 +128,10 @@ address {
   color: var(--ocean);
 }
 
+.contact-items{
+
+}
+
 .hero {
   background-color: var(--navy-blue);
   width: 1440px;
@@ -141,12 +145,11 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white);
-  text-align: center;
   width: 496px;
   height: 120px;
   left: 472px;
   top: 260px;
-  padding: 188px 472px 292px 472px;
+  padding: 188px 472px 292px ;
 }
 
 .button {
